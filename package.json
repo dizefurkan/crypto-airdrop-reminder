@@ -1,0 +1,28 @@
+{
+  "name": "crypto-airdrop-reminder",
+  "version": "1.0.0",
+  "description": "Duzenli airdrop islemlerinizi takip etmenizi saglayan hatirlatici",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./scripts/serve.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dizefurkan/crypto-airdrop-reminder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dizefurkan/crypto-airdrop-reminder/issues"
+  },
+  "homepage": "https://github.com/dizefurkan/crypto-airdrop-reminder#readme",
+  "dependencies": {
+    "mobx": "^6.10.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
