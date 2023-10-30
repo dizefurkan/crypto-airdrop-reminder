@@ -31,14 +31,14 @@ export class Dapp {
   };
 
   id: string;
-  networkId: string;
+  ecosystemId: string;
   name: string;
   startedDate: number;
   frequency: keyof typeof Dapp.FREQUENCIES;
 
   constructor(data: Partial<Dapp>) {
     this.id = data.id || uuidv4();
-    this.networkId = data.networkId || "";
+    this.ecosystemId = data.ecosystemId || "";
     this.name = data.name || "";
     this.startedDate = data.startedDate || Date.now();
     this.frequency = data.frequency || "EVERYDAY";

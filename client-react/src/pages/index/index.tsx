@@ -4,12 +4,7 @@ import { Network as NetworkModel } from "src/models/network";
 import Network from "src/components/network";
 import DetailPage from "../detail";
 
-type IndexPageProps = {
-  networks: NetworkModel[];
-  onNetworkAdd: (network: NetworkModel) => void;
-};
-
-function IndexPage(props: IndexPageProps) {
+function IndexPage() {
   const { networks, onNetworkAdd } = props;
   const [networkName, setNetworkName] = useState("");
   const [selectedNetwork, setSelectedNetwork] = useState<NetworkModel | null>(
